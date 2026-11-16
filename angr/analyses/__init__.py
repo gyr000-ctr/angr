@@ -32,6 +32,7 @@ from .loop_unroller import LoopUnroller
 from .loopfinder import LoopFinder
 from .patchfinder import PatchFinderAnalysis
 from .pathfinder import Pathfinder
+from .pdb import PDBTypesAnalysis
 from .propagator import PropagatorAnalysis
 from .proximity_graph import ProximityGraphAnalysis
 from .reaching_definitions import ReachingDefinitionsAnalysis
@@ -92,6 +93,7 @@ __all__ = (
     "PackingDetector",
     "PatchFinderAnalysis",
     "Pathfinder",
+    "PDBTypesAnalysis",
     "PropagatorAnalysis",
     "ProximityGraphAnalysis",
     "ReachingDefinitionsAnalysis",
